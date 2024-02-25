@@ -9,6 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Header />
     <App />
+    <h1>Lexテスト</h1>
     <ChatComponent />
   </React.StrictMode>
 )

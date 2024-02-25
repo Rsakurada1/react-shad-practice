@@ -8,8 +8,8 @@ const lexClient = new LexRuntimeV2Client({
 // メッセージを Lex に送信し、レスポンスを取得する関数
 export const sendMessageToLex = async (message: string, userId: string): Promise<string> => {
   const params = {
-    botId: "YourBotId", // あなたのボットID
-    botAliasId: "YourBotAliasId", // あなたのボットエイリアスID
+    botId: "QGUIJZVSF5", // あなたのボットID
+    botAliasId: "8WK8YTC8SQ", // あなたのボットエイリアスID
     localeId: "ja_JP", // ロケールID
     sessionId: userId, // セッションID
     text: message, // ユーザーからのメッセージ
